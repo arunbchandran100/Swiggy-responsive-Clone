@@ -89,6 +89,7 @@ nav{
     display: flex;
     justify-content: center;
 }
+
 .hr{
     width: 82%;
     height: 1px;
@@ -97,3 +98,32 @@ nav{
     /* justify-content: center; */
 }
     
+
+.card222-items{
+    /* border: 3px solid red; */
+    margin-right: 3em;
+    
+}
+.card222-image{
+    height: 11.5em;
+    width: 11.5em;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.item-title-222{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.13em;
+}
+
+.item-rating-222{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+
+.item-location-222{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+    
+}
