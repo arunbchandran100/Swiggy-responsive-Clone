@@ -71,3 +71,29 @@ nav{
         bottom: 1em;
     }
 }
+
+.head-title-1st{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1.6em;
+}
+
+.card111-items{
+    height: 11em;
+    width: 11em;
+    object-fit: contain;
+}
+
+
+.hrouter11{
+    display: flex;
+    justify-content: center;
+}
+.hr{
+    width: 82%;
+    height: 1px;
+    background-color: rgb(208, 199, 199);
+    
+    /* justify-content: center; */
+}
+    
