@@ -5,6 +5,8 @@ nav{
 .navbar-brand{
     height: 5em;
     width: 5em;
+    position: relative;
+    left: 1em;
 }
 
 .nav-link{
@@ -53,5 +55,19 @@ nav{
     .container, .container-lg, .container-md, .container-sm, .container-xl {
         min-width: 1029px;
         max-width: 1140px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-brand{
+    /* height: 5em; */
+    /* width: 5em; */
+    position: relative;
+    bottom: 1em;
+    }
+
+    .navbar-toggler{
+        position: relative;
+        bottom: 1em;
     }
 }
