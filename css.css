@@ -72,6 +72,12 @@ nav{
     }
 }
 
+@media(max-width: 760px){
+        .mobile-button-hidden{
+        display:none;
+        }
+}
+
 .head-title-1st{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
@@ -101,14 +107,34 @@ nav{
 
 .card222-items{
     /* border: 3px solid red; */
+    width: 100%;
     margin-right: 3em;
     
 }
 .card222-image{
     height: 11.5em;
     width: 11.5em;
+    /* width: 100%; */
     object-fit: cover;
     border-radius: 10px;
+}
+
+.card333-image{
+    height: 11.5em;
+    /* width: 11.5em; */
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media(max-width:360px){
+    .card333-image{
+        height: 11.5em;
+        /* width: 11.5em; */
+        width: 100%;
+        object-fit: contain;
+        border-radius: 10px;
+    }
 }
 
 .item-title-222{
@@ -125,5 +151,21 @@ nav{
 .item-location-222{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: lighter;
-    
 }
+
+.rounded-pill{
+    border-width: 5px;
+    padding: .2em;
+}
+
+.border-secondary{
+    margin: 1em;
+    padding: .4em;
+}
+
+.third-allcard333{
+    padding-left: 3em;
+}
+
+
+
