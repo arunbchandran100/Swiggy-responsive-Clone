@@ -41,3 +41,17 @@ nav{
 .bi-suitcase-lg{
     color: black;
 }
+
+@media (max-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 1093px;
+        font-size: small;
+    }
+}
+
+@media (min-width: 992px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        min-width: 1029px;
+        max-width: 1140px;
+    }
+}
